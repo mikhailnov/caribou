@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the caribou package.
 # Claude Paroz <claude@2xlibre.net>, 2010-2017
 # Alain Lojewski <allomervan@gmail.com>, 2011
+# Charles Monzat <charles.monzat@numericable.fr>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: caribou master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=caribou&keywords=I18N+L10N&component=default\n"
-"POT-Creation-Date: 2017-02-23 10:45+0000\n"
-"PO-Revision-Date: 2017-03-06 20:15+0100\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
-"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/caribou/issues\n"
+"POT-Creation-Date: 2018-06-10 15:53+0000\n"
+"PO-Revision-Date: 2018-08-30 18:01+0200\n"
+"Last-Translator: Charles Monzat <charles.monzat@numericable.fr>\n"
+"Language-Team: français <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../caribou/settings/caribou_settings.py:5
 msgid "Caribou Preferences"
@@ -81,7 +82,7 @@ msgstr "Redémarrer le balayage automatiquement"
 
 #: ../caribou/settings/caribou_settings.py:29
 msgid "Automatically restart scanning after item activation"
-msgstr "Redémarrer le balayage automatiquement après l'activation d'un élément"
+msgstr "Redémarrer le balayage automatiquement après l’activation d’un élément"
 
 #: ../caribou/settings/caribou_settings.py:30
 msgid "Scan cycles"
@@ -181,7 +182,7 @@ msgstr "Caribou"
 
 #: ../caribou/antler/antler_settings.py:6
 msgid "Antler Preferences"
-msgstr "Préférences d'Antler"
+msgstr "Préférences d’Antler"
 
 #: ../caribou/antler/antler_settings.py:7
 msgid "Antler"
@@ -197,7 +198,7 @@ msgstr "Type de clavier"
 
 #: ../caribou/antler/antler_settings.py:11
 msgid "The keyboard geometry Caribou should use"
-msgstr "L'agencement de clavier que Caribou doit utiliser"
+msgstr "L’agencement de clavier que Caribou doit utiliser"
 
 #: ../caribou/antler/antler_settings.py:12
 msgid ""
@@ -205,8 +206,8 @@ msgid ""
 "it could range from a “natural” look and feel good for composing simple "
 "text, to a fullscale keyboard."
 msgstr ""
-"L'agencement du clavier définit sa forme et sa complexité. Ça peut aller "
-"d'un design « simple » pour ne saisir que du texte, à une disposition "
+"L’agencement du clavier définit sa forme et sa complexité. Ça peut aller "
+"d’un design « simple » pour ne saisir que du texte, à une disposition "
 "beaucoup plus complète."
 
 #. Translators: Keyboard type (similar to touch/tactile device)
