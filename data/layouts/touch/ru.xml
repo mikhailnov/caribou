@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<layout xmlns:xi="http://www.w3.org/2001/XInclude">
+  <level mode="default" name="level1">
+    <row align="right">
+      <key name="Cyrillic_io"/>
+      <key name="Cyrillic_shorti"/>
+      <key name="Cyrillic_tse"/>
+      <key name="Cyrillic_u"/>
+      <key name="Cyrillic_ka"/>
+      <key name="Cyrillic_ie"/>
+      <key name="Cyrillic_en"/>
+      <key name="Cyrillic_ghe"/>
+      <key name="Cyrillic_sha"/>
+      <key name="Cyrillic_shcha"/>
+      <key name="Cyrillic_ze"/>
+      <key name="Cyrillic_ha"/>
+      <key name="Cyrillic_hardsign"/>
+      <key name="BackSpace"/>
+    </row>
+    <row align="right">
+      <key name="Cyrillic_ef"/>
+      <key name="Cyrillic_yeru"/>
+      <key name="Cyrillic_ve"/>
+      <key name="Cyrillic_a"/>
+      <key name="Cyrillic_pe"/>
+      <key name="Cyrillic_er"/>
+      <key name="Cyrillic_o"/>
+      <key name="Cyrillic_el"/>
+      <key name="Cyrillic_de"/>
+      <key name="Cyrillic_zhe"/>
+      <key name="Cyrillic_e"/>
+      <key name="Return" width="2.0"/>
+    </row>
+    <row>
+      <key name="Caribou_ShiftUp" width="2.0" toggle="level2"/>
+      <key name="Cyrillic_ya"/>
+      <key name="Cyrillic_che"/>
+      <key name="Cyrillic_es"/>
+      <key name="Cyrillic_em"/>
+      <key name="Cyrillic_i"/>
+      <key name="Cyrillic_te"/>
+      <key name="Cyrillic_softsign"/>
+      <key name="Cyrillic_be"/>
+      <key name="Cyrillic_yu"/>
+    </row>
+    <row>
+      <key name="Caribou_Symbols" align="left" toggle="symbols1" width="2.0"/>
+      <key name="space" width="8.0" align="center"/>
+      <key name="Caribou_Prefs" align="right"/>
+    </row>
+  </level>
+  <level mode="latched" name="level2">
+    <row align="right">
+      <key name="Cyrillic_IO"/>
+      <key name="Cyrillic_SHORTI"/>
+      <key name="Cyrillic_TSE"/>
+      <key name="Cyrillic_U"/>
+      <key name="Cyrillic_KA"/>
+      <key name="Cyrillic_IE"/>
+      <key name="Cyrillic_EN"/>
+      <key name="Cyrillic_GHE"/>
+      <key name="Cyrillic_SHA"/>
+      <key name="Cyrillic_SHCHA"/>
+      <key name="Cyrillic_ZE"/>
+      <key name="Cyrillic_HA"/>
+      <key name="Cyrillic_HARDSIGN"/>
+      <key name="BackSpace"/>
+    </row>
+    <row align="right">
+      <key name="Cyrillic_EF"/>
+      <key name="Cyrillic_YERU"/>
+      <key name="Cyrillic_VE"/>
+      <key name="Cyrillic_A"/>
+      <key name="Cyrillic_PE"/>
+      <key name="Cyrillic_ER"/>
+      <key name="Cyrillic_O"/>
+      <key name="Cyrillic_EL"/>
+      <key name="Cyrillic_DE"/>
+      <key name="Cyrillic_ZHE"/>
+      <key name="Cyrillic_E"/>
+      <key name="Return" width="2.0"/>
+    </row>
+    <row>
+      <key name="Caribou_ShiftUp" width="2.0" toggle="level2"/>
+      <key name="Cyrillic_YA"/>
+      <key name="Cyrillic_CHE"/>
+      <key name="Cyrillic_ES"/>
+      <key name="Cyrillic_EM"/>
+      <key name="Cyrillic_I"/>
+      <key name="Cyrillic_TE"/>
+      <key name="Cyrillic_SOFTSIGN"/>
+      <key name="Cyrillic_BE"/>
+      <key name="Cyrillic_YU"/>
+    </row>
+    <row>
+      <key name="Caribou_Symbols" align="left" toggle="symbols1" width="2.0"/>
+      <key name="space" width="8.0" align="center"/>
+      <key name="Caribou_Prefs" align="right"/>
+    </row>
+  </level>
+<level mode="locked" name="symbols1" xml:base="common/symbols.xml">
+    <row>
+      <key name="1"/>
+      <key name="2"/>
+      <key name="3"/>
+      <key name="4"/>
+      <key name="5"/>
+      <key name="6"/>
+      <key name="7"/>
+      <key name="8"/>
+      <key name="9"/>
+      <key name="0"/>
+      <key name="BackSpace" repeatable="yes"/>
+    </row>
+    <row align="right">
+      <key name="minus"/>
+      <key name="slash"/>
+      <key name="colon"/>
+      <key name="semicolon"/>
+      <key name="parenleft"/>
+      <key name="parenright"/>
+      <key name="ampersand"/>
+      <key name="at"/>
+      <key name="grave"/>
+      <key name="Return" width="1.5"/>
+    </row>
+    <row>
+      <key name="Caribou_Symbols_More" toggle="symbols2" width="2.0"/>
+      <key name="period" width="1.2"/>
+      <key name="comma" width="1.2"/>
+      <key name="question" width="1.2">
+        <key name="question"/>
+        <key name="questiondown"/>
+      </key>
+      <key name="exclam" width="1.2">
+        <key name="exclam"/>
+        <key name="exclamdown"/>
+      </key>
+      <key name="apostrophe" width="1.2"/>
+      <key name="quotedbl" width="1.2"/>
+    </row>
+    <row>
+      <key align="left" name="Caribou_Alpha" toggle="default" width="2.0"/>
+      <key align="center" name="space" width="6.0" repeatable="yes"/>
+      <key align="right" name="Caribou_Prefs"/>
+    </row>
+  </level>
+  <level mode="locked" name="symbols2" xml:base="common/symbols.xml">
+    <row>
+      <key name="bracketleft"/>
+      <key name="bracketright"/>
+      <key name="braceleft"/>
+      <key name="braceright"/>
+      <key name="numbersign"/>
+      <key name="percent"/>
+      <key name="asciicircum"/>
+      <key name="asterisk"/>
+      <key name="plus"/>
+      <key name="equal"/>
+      <key name="BackSpace" repeatable="yes"/>
+    </row>
+    <row align="right">
+      <key align="right" name="underscore"/>
+      <key name="backslash"/>
+      <key name="bar"/>
+      <key name="asciitilde"/>
+      <key name="less"/>
+      <key name="greater"/>
+      <key name="dollar"/>
+      <key name="EuroSign"/>
+      <key name="sterling"/>
+      <key name="Return" width="1.5"/>
+    </row>
+    <row>
+      <key name="Caribou_Symbols" toggle="symbols1" width="2.0"/>
+      <key name="period" width="1.2"/>
+      <key name="comma" width="1.2"/>
+      <key name="question" width="1.2">
+        <key name="question"/>
+        <key name="questiondown"/>
+      </key>
+      <key name="exclam" width="1.2">
+        <key name="exclam"/>
+        <key name="exclamdown"/>
+      </key>
+      <key name="apostrophe" width="1.2"/>
+      <key name="quotedbl" width="1.2"/>
+    </row>
+    <row>
+      <key align="left" name="Caribou_Alpha" toggle="default" width="2.0"/>
+      <key align="center" name="space" width="6.0" repeatable="yes"/>
+      <key align="right" name="Caribou_Prefs"/>
+    </row>
+  </level>
+  <xi:include href="common/symbols.xml#xpointer(//level[@name='symbols1'])"/>
+  <xi:include href="common/symbols.xml#xpointer(//level[@name='symbols2'])"/>
+</layout>
